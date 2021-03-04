@@ -9,9 +9,7 @@ const handleApiCall = (req, res) =>{
    .then(data =>{
     res.json(data);
 })
-        
-          
-          .catch(err => res.status(400).json('enable to work with API'))
+.catch(err => res.status(400).json('enable to work with API'))
 
 }
 
