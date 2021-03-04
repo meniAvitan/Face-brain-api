@@ -9,7 +9,9 @@ import {handleSignin} from './controllers/signin.js';
 import {handleProfileGet} from './controllers/prifile.js';
 import {handleApiCall, handleImage} from './controllers/image.js';
 
-
+app.get("/", (req, res) => {
+  res.send("it's working!");
+  });
 
  
 
